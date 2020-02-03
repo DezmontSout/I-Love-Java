@@ -8,10 +8,6 @@ public class NavalniyDuck extends Duck {
         this.daysInPrison = daysInPrison;
     }
 
-    public int getDaysInPrison() {
-        return daysInPrison;
-    }
-
     @Override
     public String toString() {
         return "NavalniyDuck{" +
@@ -28,13 +24,13 @@ public class NavalniyDuck extends Duck {
     }
 
     public void organizeMeeting(int theCostOfTheHouseNextDeputy) {
-        if (chanceForOrganizeMeeting(theCostOfTheHouseNextDeputy)) {
+        if (IsAPossibilityForOrganizeMeeting(theCostOfTheHouseNextDeputy)) {
             System.out.println("Вы организовали митинг, как обычно ничего не изменилось");
             daysInPrison += 30;
         }
     }
 
-    private boolean chanceForOrganizeMeeting(int theCostOfTheHouseNextDeputy) {
+    private boolean IsAPossibilityForOrganizeMeeting(int theCostOfTheHouseNextDeputy) {
         return theCostOfTheHouseNextDeputy > 1000000;
     }
 
