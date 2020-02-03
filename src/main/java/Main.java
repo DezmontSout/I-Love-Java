@@ -10,6 +10,7 @@ public class Main {
         System.out.println("HashCode for duck = " + duck.hashCode());
         System.out.println("HashCode for duck2 = " + duck2.hashCode() + "\n");
         duck.makeSound();
+
         navalniyDuck.makeSound();
         System.out.println("\n");
         navalniyDuck.organizeMeeting(1000000000);
