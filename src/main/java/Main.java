@@ -19,8 +19,8 @@ public class Main {
         /**
          * Демонстрируем полиморфизм.
          */
-        duck.makeSound();
-        navalniyDuck.makeSound();
+        System.out.println(duck.makeSound());
+        System.out.println(navalniyDuck.makeSound());
         System.out.println("\n");
         /**
          * Демонстрация работы паблик метода, который внутри содержит приватный метод.

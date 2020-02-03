@@ -19,8 +19,8 @@ public class NavalniyDuck extends Duck {
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("Путина избрали на 10ый срок, поэтому го на митинг, пацаны");
+    public String makeSound() {
+        return "Путина избрали на 10ый срок, поэтому го на митинг, пацаны";
     }
 
     public void organizeMeeting(int theCostOfTheHouseNextDeputy) {

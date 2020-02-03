@@ -18,7 +18,7 @@ public class WildDuck extends Duck {
     }
 
     @Override
-    public void makeSound() {
-        System.out.println("I can fly, stupid human! You can't kill me!");
+    public String makeSound() {
+        return  "I can fly, stupid human! You can't kill me!";
     }
 }

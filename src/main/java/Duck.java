@@ -11,8 +11,8 @@ public class Duck {
     }
 
 
-    public void makeSound() {
-        System.out.println("Duck makes a some sound");
+    public String makeSound() {
+        return "Duck makes a some sound";
     }
 
 
