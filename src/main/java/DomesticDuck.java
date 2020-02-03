@@ -15,16 +15,8 @@ public class DomesticDuck extends Duck {
         return flyable;
     }
 
-    public void setFlyable(boolean flyable) {
-        this.flyable = flyable;
-    }
-
     public int getNumberOfDaysToKill() {
         return numberOfDaysToKill;
-    }
-
-    public void setNumberOfDaysToKill(int numberOfDaysToKill) {
-        this.numberOfDaysToKill = numberOfDaysToKill;
     }
 
     @Override

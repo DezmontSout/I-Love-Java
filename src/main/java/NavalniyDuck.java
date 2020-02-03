@@ -12,10 +12,6 @@ public class NavalniyDuck extends Duck {
         return daysInPrison;
     }
 
-    public void setDaysInPrison(int daysInPrison) {
-        this.daysInPrison = daysInPrison;
-    }
-
     @Override
     public String toString() {
         return "NavalniyDuck{" +

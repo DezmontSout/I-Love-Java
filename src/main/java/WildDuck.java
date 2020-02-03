@@ -7,14 +7,6 @@ public class WildDuck extends Duck {
         this.numberOfFlight = numberOfFlight;
     }
 
-    public int getNumberOfFlight() {
-        return numberOfFlight;
-    }
-
-    public void setNumberOfFlight(int numberOfFlight) {
-        this.numberOfFlight = numberOfFlight;
-    }
-
     @Override
     public String toString() {
         return "WildDuck{" +
