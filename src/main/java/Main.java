@@ -5,6 +5,7 @@ public class Main {
         DomesticDuck duck2 = new DomesticDuck("Red", 21, "Vasya", false, 200);
         DomesticDuck duck3 = new DomesticDuck("Red", 21, "Vasya", true, 200);
         NavalniyDuck navalniyDuck = new NavalniyDuck("Yellow", 2, "Aleksey", 333);
+        WildDuck wildDuck = new WildDuck("Green", 13, "Petya", 10);
         /**
          * Сравниваем с помощью equals трех уток. У первой и у третьей все поля равны
          */
@@ -19,8 +20,13 @@ public class Main {
         /**
          * Демонстрируем полиморфизм.
          */
-        System.out.println(duck.makeSound());
-        System.out.println(navalniyDuck.makeSound());
+        Duck[] ducks = new Duck[3];
+        ducks[0] = duck;
+        ducks[1] = wildDuck;
+        ducks[2] = navalniyDuck;
+        for (Duck value : ducks) {
+            System.out.println(value.makeSound());
+        }
         System.out.println("\n");
         /**
          * Демонстрация работы паблик метода, который внутри содержит приватный метод.
