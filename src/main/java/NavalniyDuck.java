@@ -28,6 +28,9 @@ public class NavalniyDuck extends Duck {
             System.out.println("Вы организовали митинг, как обычно ничего не изменилось");
             daysInPrison += 30;
         }
+        else {
+            System.out.println("Митинг не одобрили, попробуйте в следующий раз");
+        }
     }
 
     private boolean IsAPossibilityForOrganizeMeeting(int theCostOfTheHouseNextDeputy) {
