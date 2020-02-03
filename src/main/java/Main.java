@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        DomesticDuck duck = new DomesticDuck("Red", 21, "Vasya", true, 200);
-        DomesticDuck duck2 = new DomesticDuck("Red", 21, "Vasya", false, 200);
-        DomesticDuck duck3 = new DomesticDuck("Red", 21, "Vasya", true, 200);
+        Duck duck = new DomesticDuck("Red", 21, "Vasya", true, 200);
+        Duck duck2 = new DomesticDuck("Red", 21, "Vasya", false, 200);
+        Duck duck3 = new DomesticDuck("Red", 21, "Vasya", true, 200);
         NavalniyDuck navalniyDuck = new NavalniyDuck("Yellow", 2, "Aleksey", 333);
-        WildDuck wildDuck = new WildDuck("Green", 13, "Petya", 10);
+        Duck wildDuck = new WildDuck("Green", 13, "Petya", 10);
         /**
          * Сравниваем с помощью equals трех уток. У первой и у третьей все поля равны
          */
