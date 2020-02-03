@@ -52,6 +52,7 @@ public class DomesticDuck extends Duck {
                 '}';
     }
 
+    @Override
     public void makeSound() {
         System.out.println("Please don't kill me, human");
     }

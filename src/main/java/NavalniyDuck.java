@@ -26,6 +26,7 @@ public class NavalniyDuck extends Duck {
                 '}';
     }
 
+    @Override
     public void makeSound() {
         System.out.println("Путина избрали на 10ый срок, поэтому го на митинг, пацаны");
     }
